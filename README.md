@@ -90,6 +90,7 @@ response
 ### Logout
 POST            api/auth/logout
 
+&nbsp;
 A rota logout deve possuir em seu header um Bearer Token contendo o token recebido no momento de login.
 
 ### Register
@@ -111,6 +112,8 @@ response
 ```
 ### Despesas get
 GET|HEAD        api/despesas-api
+
+&nbsp;
 A rota deve possuir em seu header um Bearer Token contendo o token recebido no momento de login.
 
 response
@@ -129,6 +132,8 @@ response
 ```
 ### Despesas post
 POST            api/despesas-api
+
+&nbsp;
 A rota deve possuir em seu header um Bearer Token contendo o token recebido no momento de login.
 ```
 {
@@ -152,6 +157,8 @@ response
 
 ### Despesas show
 GET|HEAD        api/despesas-api/{despesas_api}
+
+&nbsp;
 A rota deve possuir em seu header um Bearer Token contendo o token recebido no momento de login.
 response
 ```
@@ -168,6 +175,8 @@ response
 
 ### Despesas update
 PUT|PATCH       api/despesas-api/{despesas_api}
+
+&nbsp;
 A rota deve possuir em seu header um Bearer Token contendo o token recebido no momento de login.
 ```
 {
@@ -193,6 +202,8 @@ response
 
 ### Despesas delete
 DELETE          api/despesas-api/{despesas_api}
+
+&nbsp;
 A rota deve possuir em seu header um Bearer Token contendo o token recebido no momento de login.
 
 
