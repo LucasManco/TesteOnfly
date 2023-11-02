@@ -142,7 +142,8 @@ A rota deve possuir em seu header um Bearer Token contendo o token recebido no m
     "usuario":34,
     "valor":300.27
 
-}```
+}
+```
 response
 ```
 {
@@ -153,7 +154,8 @@ response
     "updated_at": "2023-11-02T11:22:13.000000Z",
     "created_at": "2023-11-02T11:22:13.000000Z",
     "id": 36
-}```
+}
+```
 
 ### Despesas show
 GET|HEAD        api/despesas-api/{despesas_api}
